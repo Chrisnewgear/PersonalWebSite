@@ -392,19 +392,19 @@ img{
 }
 
 /*==================== SKILLS ====================*/
-
-.skills__container{
+.skills__container {
     row-gap: 0;
 }
 
-.skills__headers{
+.skills__header{
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-2-5);
     cursor: pointer;
 }
 
-.skills__icon, .skills__arrow{
+.skills__icon,
+.skills__arrow{
     font-size: 2rem;
     color: var(--first-color);
 }
@@ -419,7 +419,7 @@ img{
 
 .skills__subtitle{
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
+    color: var(--text-color-light),
 }
 
 .skills__arrow{
@@ -428,12 +428,29 @@ img{
 }
 
 .skills__titles{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-bottom: var(--mb-0-5);
 }
 
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
 
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+}
+
+.skills__bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+    display: block;
+    background-color: var(--first-color);
+}
 /*==================== QUALIFICATION ====================*/
 
 
