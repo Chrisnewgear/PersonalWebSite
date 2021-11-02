@@ -427,6 +427,11 @@ img{
     transition: .4s;
 }
 
+.skills__list{
+   row-gap: 1.5rem;
+   padding-left: 2.7rem; 
+}
+
 .skills__titles{
     display: flex;
     justify-content: space-between;
@@ -450,6 +455,56 @@ img{
 .skills__percentage{
     display: block;
     background-color: var(--first-color);
+}
+
+.skills__html{
+    width: 80%;
+}
+
+.skills__css{
+    width: 60%;
+}
+
+.skills__js{
+    width: 50%;
+}
+
+.skills__react{
+    width: 50%;
+}
+
+.skills__angular{
+    width: 50%;
+}
+
+.skills__figma{
+    width: 50%;
+}
+
+.skills__adobexd{
+    width: 60%;
+}
+
+.skills__photoshop{
+    width: 80%;
+}
+
+.skills__illustrator{
+    width: 70%;
+}
+
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+    transform: rotate(-180deg);
 }
 /*==================== QUALIFICATION ====================*/
 
